@@ -6,3 +6,5 @@ intents:
           - "<muda> <zona> [a] <temperatura>"
           - "<muda> [a] temperatura [a] <temperatura>"
           - "<muda> [a] temperatura <na_zona> [a] <temperatura>"
+          - "temperatura [(do|da)] <na_zona> [(para|em)] <temperatura>"
+          - "temperatura [(para|em)] <temperatura>"

@@ -3,6 +3,7 @@ tests:
   - sentences:
       - qual a temperatura
       - qual a temperatura?
+      - temperatura
     intent:
       name: HassClimateGetTemperature
     response: "35 graus"
@@ -10,6 +11,9 @@ tests:
   - sentences:
       - qual a temperatura da sala de estar?
       - qual é a temperatura da sala de estar?
+      - temperatura da sala de estar
+      - temperatura na sala de estar
+      - temperatura sala de estar
     intent:
       name: HassClimateGetTemperature
       slots:

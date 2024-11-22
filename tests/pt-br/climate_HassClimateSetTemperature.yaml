@@ -2,6 +2,7 @@ language: pt-br
 tests:
   - sentences:
       - põe a temperatura a 30°
+      - temperatura em 30°
     intent:
       name: HassClimateSetTemperature
       slots:
@@ -19,6 +20,7 @@ tests:
 
   - sentences:
       - põe a temperatura do quarto a 50 graus Fahrenheit
+      - temperatura do quarto em 50 graus
     intent:
       name: HassClimateSetTemperature
       slots:
